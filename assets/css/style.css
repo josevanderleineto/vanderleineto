@@ -111,5 +111,6 @@ footer a  {
 }
 
 footer p {
+    margin: 0;
     color: var(--texto-branco);
 }
