@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --texto-branco:#fff;
+    --texto-preto: #000;
+}
+
+.dropdown-item img {
+    width: 30px;
+}
+
+
+.offcanvas{
+    background-image: linear-gradient(to right,
+                #8C52FF,
+                #5CE1E6);
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(to right,
+                #b390f7,
+                #78dadd);
+}
+
+.seta {
+    width: 50px;
+}
+
+.offcanvas-title {
+    color: #fff;
+}
+.inicio {
+    width: 100%;
+    background-image: linear-gradient(to right,
+        #8C52FF,
+        #5CE1E6);
+}
+#apresentacao {
+    padding-top: 15.25rem;
+    padding-left: 18.75rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Define a altura da seção para ocupar toda a altura da página */
+}
+
+
+.title {
+    font-size: 36pt;
+}
+
+.texto-apretacao {
+    font-size: 18pt;
+}
+
+
+.perfil {
+    border-radius: 50%;
+}
+
+
+
+#corpo {
+    padding-bottom: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo {
+
+    padding-left: 12.5rem;
+    margin-right: 1.25rem;
+}
+
+.vivencias-img {
+    padding-top: 9.75rem;
+    padding-right: 12.5rem;
+    width: 30rem;
+}
+
+.title-vivencias {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.vivencias-img-mobile {
+    display: none;
+}
+
+
+
+.texto {
+    padding-top: 50px;
+    font-size: 18pt;
+    text-align: justify;
+}
+
+footer {
+    background-image: linear-gradient(to right, #8C52FF, #5CE1E6);
+    text-align: center;
+}
+
+footer a  {
+    color: var(--texto-branco);
+}
+
+footer p {
+    color: var(--texto-branco);
+}

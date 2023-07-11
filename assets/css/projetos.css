@@ -1,0 +1,23 @@
+#corpo {
+    padding-right: 150px;
+}
+
+#corpo h2 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 25pt;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.projeto h3 {
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+    #corpo {
+            padding: 10px;
+    }
+}
