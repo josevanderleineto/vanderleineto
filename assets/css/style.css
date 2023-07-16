@@ -10,11 +10,17 @@
     --texto-preto: #000;
 }
 
+.header {
+    background-color: #8C52FF;
+}
 .dropdown-item img {
     width: 30px;
     
 }
 
+.seta {
+    width: 50px;
+}
 
 .inicio {
     width: 100%;
