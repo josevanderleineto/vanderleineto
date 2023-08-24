@@ -1,0 +1,16 @@
+
+.inicio{
+    width: 100%;
+    background-image: linear-gradient(to right,
+        #8C52FF,
+        #5CE1E6);
+}
+#apresentacao {
+    padding-top: 15.25rem;
+    padding-left: 18.75rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Define a altura da seção para ocupar toda a altura da página */
+}
+
