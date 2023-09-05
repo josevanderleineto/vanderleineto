@@ -18,16 +18,21 @@
     
 }
 
+.caixa-apresentacao {
+    text-align: center;
+}
+
 .seta {
     width: 50px;
 }
 
+
 .title {
-    font-size: 36pt;
+    font-size: 40pt;
 }
 
 .texto-apretacao {
-    font-size: 18pt;
+    font-size: 23pt;
 }
 
 
@@ -86,4 +91,101 @@ footer p {
     margin: 0;
     color: var(--texto-branco);
 }
+
+
+
+@media screen and (min-width: 100px) and (max-width: 1028px) {
+
+    
+    
+    
+    
+    .ul a {
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    
+
+
+.inicio {
+width: 100%;
+
+}
+
+
+
+.perfil {
+    width: 150px;
+}
+
+.title {
+    padding-top: 60px;
+    font-size: 25pt;
+}
+
+.texto-apretacao {
+    font-size: 12pt;
+}
+
+    
+
+    #corpo {
+        display: block;
+    }
+
+    .corpo {
+        padding-top: 60px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .title-vivencias {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .texto {
+        padding-top: 30px;
+      font-size: 17pt;
+    }
+
+     
+    .vivencias-img {
+       display: none;
+    }
+
+     
+    .vivencias-img-mobile {
+        display: block;
+        width: 250px;
+        padding-left: 20px;
+        margin: auto;
+    }
+
+
+    }
+    
+
+    @media (max-width: 600px) {
+        #apresentacao {
+            padding-top: 5rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Define a altura da seção para ocupar toda a altura da página */
+        }
+        
+      }
+
+
+
+
+    
+
+
+
+
 
