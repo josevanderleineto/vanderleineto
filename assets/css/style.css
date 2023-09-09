@@ -40,16 +40,33 @@
     border-radius: 50%;
 }
 
+.biblioquilombola h2 {
+    padding-top: 20px;
+}
+
+.biblioquilombola img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.texto-biblioquilombola{
+    padding: 0.5rem 12rem 30px 12rem;
+
+}
 
 
-#corpo {
+
+
+#inicio-page {
     padding-bottom: 5.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.corpo {
+.inicio-page {
 
     padding-left: 12.5rem;
     margin-right: 1.25rem;
@@ -128,13 +145,23 @@ width: 100%;
     font-size: 12pt;
 }
 
+
+.biblioquilombola .texto {
+   
+    padding: 40px;
+}
+
+.biblioquilombola img {
+    width: 80%;
+    
+}
     
 
-    #corpo {
+    #inicio-page {
         display: block;
     }
 
-    .corpo {
+    .inicio-page{
         padding-top: 60px;
         padding-right: 30px;
         padding-left: 30px;
