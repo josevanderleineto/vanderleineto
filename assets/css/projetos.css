@@ -1,15 +1,23 @@
-#corpo {
-    padding-right: 150px;
+#projetos {
+    padding-left: 140px;
 }
 
-#corpo h2 {
+.title-projetos {
+    display: inline;
+}
+
+#projetos h2 {
     font-weight: 900;
-    text-align: center;
     font-size: 25pt;
     padding-top: 20px;
     padding-bottom: 40px;
+    
 }
 
+
+.projetos img {
+    width: 229px;
+}
 .projeto h3 {
     font-size: 12pt;
     font-weight: 700;
@@ -17,7 +25,13 @@
 
 
 @media screen and (min-width: 100px) and (max-width: 900px) {
-    #corpo {
+    #projetos {
+        display: block;
             padding: 10px;
+
+    }
+
+    .projetos{
+        text-align: center;
     }
 }
